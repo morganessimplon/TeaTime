@@ -1,0 +1,255 @@
+.container {
+    background-color: #fba722;
+    max-width: 1240px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'georgia';
+    src: url('polices/georgia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* --------- 1ère row ----------- */
+
+
+#logo p {
+    font-style: italic;
+    color: white;
+}
+
+#logo img {
+    text-align: center;
+}
+
+#logo p {
+    margin-left: 25px;
+}
+
+
+/* ------------ 2ème Row ------------ */
+
+
+#nav {
+    background-color: #ff4f2b;
+    text-align: center;
+    max-width: 1240px;
+    width: 100%;
+    margin-left: 0;
+}
+
+#nav ul {
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+
+#nav ul li {
+    display: inline;
+    font-size: 20px;
+    border-right: 3px solid white;
+    margin-right: 50px;
+}
+
+#nav ul li a {
+    font-family: georgia;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+#nav ul li a:hover {
+    color: yellow;
+}
+
+
+
+
+/* ------------- 3ème Row ------------- */
+
+/* -------------- Slider -------------- */
+
+#slider {
+    max-width: 1240px;
+}
+
+#slider img {
+    width: 100%;
+}
+
+
+/* --------------- 4ème Row ---------------------- */
+
+#sousSlider {
+    background-color: white;
+    border-bottom: 5px solid red;
+    width: 100%;
+    margin-left: 0;
+}
+
+#sousSlider img {
+    float: left;
+}
+
+#sousSlider p {
+    font-family: georgia;
+    margin-top: 30px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+#sousSlider span {
+    font-size: 20px;
+}
+
+
+
+/* ------------- 5ème Row ------------- */
+
+#bloc p {
+    font-family: georgia;
+    font-style: italic;
+    margin-top: 10px;
+    text-align: justify;
+    color: #4e4940;
+}
+
+#bloc span {
+    color: #88af00;
+}
+
+#bloc h3 {
+    font-family: georgia;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#bloc1 {
+    background-color: #FFEFB6;
+    padding: 0;
+    margin-right: 80px;
+}
+
+#bloc1 img {
+    width: 100%;
+}
+
+#bloc2 {
+    background-color: #FFEFB6;
+    padding: 0;
+    margin-right: 80px;
+}
+
+#bloc2 img {
+    width: 100%;
+}
+
+#bloc3 {
+    background-color: #FFEFB6;
+    padding: 0;
+    margin-right: 80px;
+}
+
+#bloc3 img {
+    width: 100%;
+}
+
+#bloc4 {
+    background-color: #FFEFB6;
+    padding: 0;
+}
+
+#bloc4 img {
+    width: 100%;
+}
+
+#bloc1, #bloc2, #bloc3, #bloc4 {
+    margin-top: 20px;
+}
+
+#bloc2, #bloc3, #bloc4 {
+    margin-left: 45px;
+}
+
+
+#bloc .btn-warning {
+   margin-left: 30%;
+}
+
+
+#bloc .btn-warning:hover {
+    color: #fba722;
+}
+
+
+/* ------------ 6ème Row --------------- */
+
+#article {
+    width: 100%;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 0;
+}
+
+#article img {
+    float: left;
+    margin-top: 30px;
+}
+
+#article h2 {
+    margin-left: 290px;
+    color:lightgrey;
+    font-family: georgia;
+    font-style: italic;
+}
+
+#article p {
+    margin-left: 290px;
+}
+
+#article .fleche {
+    float: right;
+    margin-top: -55px;
+}
+
+
+
+/* -------------- Footer --------------- */
+
+#footer {
+    width: 100%;
+    margin: 0;
+}
+
+
+#footer ul {
+    margin-top: 40px;
+    padding-left: 0;
+}
+
+
+#footer ul li {
+    color: white;
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+
+#reseaux ul li {
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
